@@ -1,0 +1,32 @@
+.education{
+    display: table;
+    flex-direction: column;
+     justify-content: center;
+    
+     height: 45vh;
+ }
+ .col{
+     display: table-cell;
+     border-style: outset;
+     
+     border-radius: 25px;
+
+ }
+.education h1{
+    color: var(--black); 
+    font-size: 2.5rem;
+    font-weight:bold;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+
+  
+
+}
+.col h2{
+    color: var(--black); 
+    font-size: 1.5rem;
+    font-weight:550;
+    
+}
+

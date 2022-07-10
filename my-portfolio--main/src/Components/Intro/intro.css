@@ -1,0 +1,66 @@
+.intro{
+    display: flex; 
+    height: 65vh;
+    margin-top: 6rem;
+
+}
+.i-left{
+    display: flex;
+    position: relative;
+    flex:1;
+    flex-direction: column;
+    gap:2rem;
+}
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+/*with this syntax we can poin child of any element*/
+.i-name>:nth-child(1)
+{  
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name>:nth-child(2){
+    color: var(--orange);
+    font-size: 3rem;
+
+}
+.i-name>:nth-child(){
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--black);
+    margin-top: 10px;
+}
+.i-button{
+    width: 6rem;
+    height: 2rem;
+}
+
+
+i.right{
+    flex:1;
+}
+.i-icons{
+
+    display: flex;
+    gap: 1rem;
+    /* height: 96px;
+    width: 96px;
+    */
+     
+}
+/* this * ill take all images from intro comp*/
+.i-icons>*{
+    transform: scale(0.5) ;
+
+}
+.i-icons>:hover{
+    cursor: pointer;
+}
+/*.i-right{
+    flex:1;
+    position:relative;
+
+}*/
